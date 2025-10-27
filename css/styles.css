@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+a { 
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+}
+
+.our-portfolio ul {
+     list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.our-portfolio li {
+    flex: 1 1 0;
+}
+
+.our-portfolio img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header p {
+  transition: color 0.3s;
+}
+
+header p:hover,
+header p:focus {
+  color: #ff6600;
+}
