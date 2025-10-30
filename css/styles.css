@@ -38,6 +38,9 @@ body {
   color: #404bbf;
 }
 
+ul {
+  list-style: none;
+}
 
 /* ===== Контакти ===== */
 .contacts {
